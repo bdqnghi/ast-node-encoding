@@ -80,4 +80,7 @@ def main():
         samples = pickle.load(sample_file)
     
     # if args.model.lower() == 'ast2vec':
-    ast2vec.learn_vectors(samples, args.checkpoint, args.outfile)
+    learn_vectors(samples, "logs/algorithm", "./data/vectors.pkl")
+
+if __name__ == "__main__":
+    main()
