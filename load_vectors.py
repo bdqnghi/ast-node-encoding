@@ -54,8 +54,8 @@ words = tuple(words)
 # print_word2vec_format(samples)	
 
 
-vectors = KeyedVectors.load_word2vec_format("./data/vectors.txt",binary=False)
 
+vectors = KeyedVectors.load_word2vec_format("./data/vectors.txt",binary=False)
 
 print vectors["Module"]
 tsne = TSNE(n_components=2, random_state=0)
