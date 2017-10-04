@@ -2,3 +2,7 @@
 
 * Vectors are learned by a variation of word2vec instead of the proposed method.
 * Adam is used instead of gradient descent.
+
+A visualization of learned token
+--------------------------
+![](ast_nodes_visualization.png)
