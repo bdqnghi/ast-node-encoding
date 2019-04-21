@@ -2,7 +2,7 @@
 
 This work is an attempt to learn vector representation for AST nodes. The original paper is: [Building Program Vector Representations for Deep Learning](https://arxiv.org/abs/1409.3358). Instead of using the method proposed in this paper. I use the strategy similar to word2vec to learned embeddings of AST nodes. 
 
-* Vectors are learned by a variation of word2vec instead of the proposed method. The intuition is similar to the original paper, capture the context of a parent node by learning the vectors of its children. The difference is that in the original paper, they tried to minimizing the distance between the parent node and the sum vectors of its children. In this work, given a specific token type as the input, look at its children and pick one at random. The network is going to tell us the probability for every token in our vocabulary of being its child that we chose. The vocabulary is relatively small since the number of token type of AST is small (around 92 token type).
+* Vectors are learned by a variation of word2vec instead of the proposed method. The intuition is similar to the original paper, by captur the context of a parent node by learning the vectors of its children. The difference is that in the original paper, they tried to minimizing the distance between the parent node and the sum vectors of its children. In this work, given a specific token type as the input, look at its children and pick one at random. The network is going to tell us the probability for every token in our vocabulary of being its child that we chose. The vocabulary is relatively small since the number of token type of AST is small (around 92 token type).
 
 * Adam Optimizer is used instead of Stochastic Gradient Descent.
 
