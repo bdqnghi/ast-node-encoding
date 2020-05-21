@@ -8,6 +8,11 @@ This work is an attempt to learn vector representation for AST nodes. The origin
 
 * The dataset used in this implementation is smaller than in the original paper. I crawled Python algorithms from Github by myself since using the built in Python AST parser for Python code is more convenient and less time-consuming than writing the AST Parser for the C++ code in the original dataset, thus the node type is a little bit different.
 
+# How to run
+```python
+python2 train.py
+```
+
 The list of learned token vectors can be found here:
 https://github.com/bdqnghi/ast-node-encoding/blob/master/data/vectors.txt
 
