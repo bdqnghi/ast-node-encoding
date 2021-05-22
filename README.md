@@ -1,4 +1,4 @@
-# Encoding the AST Tree using a strategy similar to word2vec, but applied to the context of AST's
+# Encoding the AST Tree using a strategy similar to word2vec, but applied to the context of AST's.
 
 This project aims to learn vector representations for AST nodes. [Building Program Vector Representations for Deep Learning] (https://arxiv.org/abs/1409.3358) is the original paper presented at AAAI 2015. Instead of the method proposed in this paper, I use a strategy similar to word2vec to learn AST node embeddings.
 
