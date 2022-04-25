@@ -19,3 +19,37 @@ https://github.com/bdqnghi/ast-node-encoding/blob/master/data/vectors.txt
 A visualization of learned token
 --------------------------
 ![](ast_nodes_visualization.png)
+
+## References
+If you are using this code for your research, please cite these papers.
+```
+@inproceedings{DBLP:conf/aaai/BuiJY18,
+  author    = {Nghi D. Q. Bui and
+               Lingxiao Jiang and
+               Yijun Yu},
+  title     = {Cross-Language Learning for Program Classification Using Bilateral
+               Tree-Based Convolutional Neural Networks},
+  booktitle = {The Workshops of the The Thirty-Second {AAAI} Conference on Artificial
+               Intelligence, New Orleans, Louisiana, USA, February 2-7, 2018.},
+  pages     = {758--761},
+  year      = {2018},
+  crossref  = {DBLP:conf/aaai/2018w},
+  url       = {https://aaai.org/ocs/index.php/WS/AAAIW18/paper/view/17338},
+  timestamp = {Thu, 19 Jul 2018 13:38:55 +0200},
+  biburl    = {https://dblp.org/rec/bib/conf/aaai/BuiJY18},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@INPROCEEDINGS{8667995, 
+    author={B. {Nghi D. Q.} and Y. {Yu} and L. {Jiang}}, 
+    booktitle={2019 IEEE 26th International Conference on Software Analysis, Evolution and Reengineering (SANER)}, 
+    title={Bilateral Dependency Neural Networks for Cross-Language Algorithm Classification}, 
+    year={2019}, 
+    volume={}, 
+    number={}, 
+    pages={422-433}, 
+    keywords={Neural networks;Prediction algorithms;Classification algorithms;Syntactics;Semantics;Machine learning algorithms;Task analysis;cross-language mapping;program classification;algorithm classification;code embedding;code dependency;neural network;bilateral neural network}, 
+    doi={10.1109/SANER.2019.8667995}, 
+    ISSN={1534-5351}, 
+    month={Feb},
+}
